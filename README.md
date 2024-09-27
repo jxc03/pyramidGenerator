@@ -529,6 +529,7 @@ Now your `call` variable has the value `"Testing"`. But your function is no long
 Remove the `name` parameter from your function declaration, then remove your `"CamperChan"` string from the `padRow` call.
 
 ```js
+const call = padRow("Test");
 ```
 
 ## **Step 55** 
@@ -536,6 +537,12 @@ Because your function was no longer using the parameter, changing the value pass
 Go ahead and remove the `test` declaration from your `padRow` function. Also, remove the `return` statement, so your function is empty again.
 
 ```js
+function addTwoNumbers(a, b) {
+  return a + b;
+}
+
+let sum = addTwoNumbers(5, 10);
+console.log(sum);
 ```
 
 ## **Step 56** 
